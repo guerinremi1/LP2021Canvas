@@ -51,4 +51,32 @@ class Book
     {
         return $this->category;
     }
+
+    public function setId(?int $id): void
+    {
+        if (null !== $id) {
+            $this->id = $id;
+        }
+    }
+
+    public function setLabel(?string $label): void
+    {
+        if (null !== $label) {
+            $this->label = $label;
+        }
+    }
+
+    public function setIsbn(?string $isbn): void
+    {
+        if (null !== $isbn) {
+            $this->isbn = $isbn;
+        }
+    }
+
+    public function setCategory(?string $category): void
+    {
+        if (null !== $category) {
+            $this->category = $category;
+        }
+    }
 }

@@ -5,4 +5,15 @@ hello:
 get_book:
     path: /book
     controller: App\Controller\BookController::getBookAction
+    methods: GET
+
+add_book:
+    path: /book
+    controller: App\Controller\BookController::addBookAction
+    methods: POST
+
+patch_book:
+    path: /book
+    controller: App\Controller\BookController::patchBookAction
+    methods: PATCH
 
