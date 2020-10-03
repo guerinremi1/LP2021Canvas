@@ -2,3 +2,7 @@ hello:
     path: /hello
     controller: App\Controller\HelloController::helloAction
 
+get_book:
+    path: /book
+    controller: App\Controller\BookController::getBookAction
+
